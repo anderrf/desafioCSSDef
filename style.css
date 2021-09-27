@@ -7,4 +7,45 @@
 body{
     width: 100vw;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    font-family: Tahoma;
+}
+
+body > div{
+    width: 80vw;
+    height: 25vh;
+    background-color: #FFFFFF;
+    margin: 10px auto;
+    border-radius: 0 0 10px 10px;
+}
+
+header{
+    background-color: #4169E1;
+    color: #FFFFFF;
+    padding: 8px 4px;
+}
+
+header h3{
+    font-size: 26px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px 8px;
+}
+
+main div p{
+    color: #AAAAAA;
+    font-size: 18px;
 }
